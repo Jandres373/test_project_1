@@ -178,7 +178,15 @@ body {
         background: #303b59;
         width: 75%;
     }
-    
+    .btn-arrow {
+        width: 40px;
+        height: 40px;
+        background-color: #6542fe;
+        display: grid;
+        place-items: center;
+        border-radius: 0 20px 20px 0;
+        transform: rotateZ(90deg);
+    }
 }
 
 
@@ -192,7 +200,7 @@ body {
     display: grid;
     place-items: center;
     border-radius: 0 20px 20px 0;
-    transform: rotateZ(90deg);
+    
 }
 .btn-arrow img {
     width: 30px;
