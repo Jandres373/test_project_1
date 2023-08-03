@@ -192,6 +192,7 @@ body {
     display: grid;
     place-items: center;
     border-radius: 0 20px 20px 0;
+    transform: rotateZ(90deg);
 }
 .btn-arrow img {
     width: 30px;
